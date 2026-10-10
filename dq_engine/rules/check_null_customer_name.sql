@@ -3,4 +3,6 @@ SELECT
 FROM 
     customers 
 WHERE 
-    customer_name IS NULL;
+    customer_name IS NULL
+AND 
+    isactive = 1;
